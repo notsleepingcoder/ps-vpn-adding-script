@@ -1,0 +1,1 @@
+Add-VpnConnection -Name "[INPUT_VPN_NAME]" -ServerAddres "[INPUT_IP_ADDRESS]" -TunnelType L2tp -EncryptionLevel Optional -AuthenticationMethod MSChapv2 -L2tpPsk [INPUT_SHARING_KEY] -RememberCredential $true -DnsSuffix "[INPUT_DOMAIN]" -Force
